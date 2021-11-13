@@ -1,1 +1,7 @@
+local Players = game:GetService("Players")
+
+frame = script.Parent.Frame
+frame.Draggable = true
+frame.Active = true
+frame.Selectable = true
 
