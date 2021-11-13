@@ -1,7 +1,1 @@
-local Players = game:GetService("Players")
-
-frame = script.Parent.Frame
-frame.Draggable = true
-frame.Active = true
-frame.Selectable = true
-
+game.StarterGui:SetCore( "ChatMakeSystemMessage",  { Text = "[SYSTEM] Hello World", Color = Color3.fromRGB( 255,0,0 ), Font = Enum.Font.Arial, FontSize = Enum.FontSize.Size24 } )
